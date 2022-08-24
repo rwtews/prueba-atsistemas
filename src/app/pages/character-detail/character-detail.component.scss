@@ -1,0 +1,24 @@
+.character-detail_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 10px;
+
+  #profile {
+    width: 400px;
+  }
+
+  .character-detail_container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+
+    &_occupation {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      padding-left: 2rem;
+    }
+  }
+}
