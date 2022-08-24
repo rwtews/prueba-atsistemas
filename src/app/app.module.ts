@@ -1,16 +1,16 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { CustomTranslateModule } from './shared/modules/custom-translate/custom-translate.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     HttpClientModule,
     CustomTranslateModule
   ],

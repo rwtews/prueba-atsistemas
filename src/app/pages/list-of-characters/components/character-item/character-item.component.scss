@@ -1,0 +1,21 @@
+.character-item_container {
+  img {
+    width: 70px;
+  }
+
+  &-detail {
+    display: flex;
+    flex-direction: column;
+
+    > div {
+      min-width: 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &_occupation {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,3 +1,13 @@
 {
-    "title": "Test"
+    "title": "Test",
+    "characterDetail": {
+        "imgAlt": "Photo of {{name}} ({{nickname}})",
+        "name": "Nombre",
+        "nickname": "Apodo",
+        "occupation": "Ocupación",
+        "birthday": "Fecha de nacimiento",
+        "appearance": "Temporadas en las que aparece",
+        "status": "",
+        "portrayed": "Actor / Actiz"
+    }
 }

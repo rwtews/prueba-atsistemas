@@ -1,3 +1,13 @@
 {
-    "title": "Prueba"
+    "title": "Prueba",
+    "characterDetail": {
+        "imgAlt": "Foto de {{name}} ({{nickname}})",
+        "name": "Nombre",
+        "nickname": "Apodo",
+        "occupation": "Ocupación",
+        "birthday": "Fecha de nacimiento",
+        "appearance": "Temporadas en las que aparece",
+        "status": "",
+        "portrayed": "Actor / Actiz"
+    }
 }
