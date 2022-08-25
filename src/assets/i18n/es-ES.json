@@ -1,6 +1,6 @@
 {
     "title": "Prueba",
-    "character": "Personaje",
+    "character": "Personajes",
     "characterDetail": {
         "imgAlt": "Foto de {{name}} ({{nickname}})",
         "name": "Nombre",
