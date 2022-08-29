@@ -1,0 +1,31 @@
+.lateral-menu_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+
+  background-color: #f3f3f3;
+  border-right: solid 1px #d1d1d1;
+  
+  -webkit-box-shadow: 10px 0px 24px -25px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 0px 24px -25px rgba(0,0,0,0.75);
+  box-shadow: 10px 0px 24px -25px rgba(0,0,0,0.75);
+
+  .routing {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    .mat-button {
+      text-align: start;
+      border-radius: 0;
+
+      &.active {
+        background-color: #d0d32163;
+        color: #005600;
+      } 
+    }
+  }
+}

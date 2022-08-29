@@ -1,0 +1,9 @@
+<section class="header_content">
+  <h1>{{ 'title' | translate }}</h1>
+
+  <mat-select class="header_content-lang" [(value)]="targetLang">
+    <mat-option *ngFor="let lang of langs" [value]="lang.value" (click)="translateLanguageTo(lang)">
+      {{lang.viewValue}}
+    </mat-option>
+  </mat-select>
+</section>

@@ -1,0 +1,17 @@
+@use '/src/assets/styles/themes/breaking-bad.theme' as breakingBadTheme;
+
+.header_content {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  padding: 0 1rem;
+  background-color: breakingBadTheme.$primary;
+  color: breakingBadTheme.$secondary;
+
+  &-lang {
+    width: max-content;
+  }
+ }
