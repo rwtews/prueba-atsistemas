@@ -16,14 +16,14 @@ export class CharacterService {
   ) { }
 
   get(id: number): Observable<Character> {
-    return this.callApi<Character[]>(`${this.ENDPOINT}/${id}`).pipe(map(e => e[0]));
+    return this.#callApi<Character[]>(`${this.ENDPOINT}/${id}`).pipe(map(e => e[0]));
   }
 
   getList(): Observable<Character[]> {
-    return this.callApi<Character[]>(this.ENDPOINT);
+    return this.#callApi<Character[]>(this.ENDPOINT);
   }
 
-  private callApi<T>(path: string) {
+  #callApi<T>(path: string) {
     return this.http.get<T>(path, { headers: this.HEADERS });
   }
 }

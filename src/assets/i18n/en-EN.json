@@ -1,13 +1,17 @@
 {
-    "title": "Test",
-    "characterDetail": {
-        "imgAlt": "Photo of {{name}} ({{nickname}})",
-        "name": "Nombre",
-        "nickname": "Apodo",
-        "occupation": "Ocupación",
-        "birthday": "Fecha de nacimiento",
-        "appearance": "Temporadas en las que aparece",
-        "status": "",
-        "portrayed": "Actor / Actiz"
-    }
+  "title": "Technical test - Breaking Bad",
+  "character": "Characters",
+  "episodes": "Episodes",
+  "deaths": "Deaths",
+  "characterDetail": {
+    "imgAlt": "Photo of {{name}} ({{nickname}})",
+    "name": "Nane",
+    "nickname": "Nickname",
+    "occupation": "Occupation",
+    "birthday": "Birthday",
+    "appearance": "Seasons in which it appears",
+    "status": "Status",
+    "portrayed": "Actor / Actress",
+    "season": "Season {{season}}"
+  }
 }

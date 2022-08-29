@@ -1,35 +1,15 @@
-<section class="character-item_container">
-  <img [src]="character.img" [alt]="'characterDetail.img_alt' | translate: imgAlt">
-  <section class="character-item_container-detail">
-    <div>
-      <span>{{'characterDetail.name' | translate}}</span>
-      <span>{{character.name}}</span>
-    </div>
-    <div>
-      <span>{{'characterDetail.nickname' | translate}}</span>
-      <span>{{character.nickname}}</span>
-    </div>
-    <div>
-      <span>{{'characterDetail.occupation' | translate}}</span>
-      <div class="character-item_container-detail_occupation">
-        <span *ngFor="let occupation of character.occupation">{{occupation}}</span>
+<mat-card>
+  <div class="character-item_container">
+    <img [src]="character.img" [alt]="'characterDetail.img_alt' | translate: imgAlt">
+    <section class="character-item_container-detail">
+      <div>
+        <span>{{'characterDetail.name' | translate}}</span>
+        <span>{{character.name}}</span>
       </div>
-    </div>
-    <div>
-      <span>{{'characterDetail.birthday' | translate}}</span>
-      <span>{{character.birthday}}</span>
-    </div>
-    <div>
-      <span>{{'characterDetail.appearance' | translate}}</span>
-      <span>{{character.appearance}}</span>
-    </div>
-    <div>
-      <span>{{'characterDetail.status' | translate}}</span>
-      <span>{{character.status}}</span>
-    </div>
-    <div>
-      <span>{{'characterDetail.portrayed' | translate}}</span>
-      <span>{{character.portrayed}}</span>
-    </div>
-  </section>
-</section>
+      <div>
+        <span>{{'characterDetail.nickname' | translate}}</span>
+        <span>{{character.nickname}}</span>
+      </div>
+    </section>
+  </div>
+</mat-card>
